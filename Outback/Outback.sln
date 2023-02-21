@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Outback.App", "Outback.App\Outback.App.csproj", "{09043462-D6AB-48DC-9BE9-2FD0DDA8C1AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Outback", "Outback\Outback.csproj", "{E59D3B2C-4C49-4BA1-BC7C-52BDDA3D7E1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Outback.Tests", "Outback.Tests\Outback.Tests.csproj", "{50D509B6-1BD5-408F-8439-F9AB8234E77C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09043462-D6AB-48DC-9BE9-2FD0DDA8C1AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09043462-D6AB-48DC-9BE9-2FD0DDA8C1AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09043462-D6AB-48DC-9BE9-2FD0DDA8C1AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09043462-D6AB-48DC-9BE9-2FD0DDA8C1AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E59D3B2C-4C49-4BA1-BC7C-52BDDA3D7E1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E59D3B2C-4C49-4BA1-BC7C-52BDDA3D7E1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E59D3B2C-4C49-4BA1-BC7C-52BDDA3D7E1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E59D3B2C-4C49-4BA1-BC7C-52BDDA3D7E1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50D509B6-1BD5-408F-8439-F9AB8234E77C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50D509B6-1BD5-408F-8439-F9AB8234E77C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50D509B6-1BD5-408F-8439-F9AB8234E77C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50D509B6-1BD5-408F-8439-F9AB8234E77C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
