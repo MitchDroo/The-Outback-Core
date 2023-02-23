@@ -1,4 +1,4 @@
-namespace Outback
+namespace Outback.Combat
 {
     public interface ICreatureSpawner
     {
