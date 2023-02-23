@@ -41,6 +41,7 @@
     <ItemGroup>
         <Compile Include="Combat\Creature.cs" />
         <Compile Include="Combat\CreatureBreed.cs" />
+        <Compile Include="Combat\Health.cs" />
         <Compile Include="Combat\ICombatMove.cs" />
         <Compile Include="Combat\ICreatureSpawner.cs" />
         <Compile Include="Combat\NoCreatureBreed.cs" />

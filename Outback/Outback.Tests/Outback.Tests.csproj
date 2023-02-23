@@ -64,6 +64,7 @@
         <Compile Include="Combat\CombatMoveHandler.cs" />
         <Compile Include="Combat\CombatMoveHandlerShould.cs" />
         <Compile Include="Combat\CreatureShould.cs" />
+        <Compile Include="Combat\HealthShould.cs" />
         <Compile Include="Combat\NoCreatureBreedShould.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
