@@ -39,6 +39,7 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Combat\CombatMoveHandler.cs" />
         <Compile Include="Combat\Creature.cs" />
         <Compile Include="Combat\CreatureBreed.cs" />
         <Compile Include="Combat\Health.cs" />

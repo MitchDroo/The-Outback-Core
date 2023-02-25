@@ -1,7 +1,6 @@
 using System.Collections.Generic;
-using Outback.Combat;
 
-namespace Outback.Tests.Combat
+namespace Outback.Combat
 {
     public class CombatMoveHandler
     {
