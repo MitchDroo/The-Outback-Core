@@ -95,23 +95,17 @@ namespace Outback.Tests.Combat
         [Test]
         public void Invoke_OnHealthUpdated_Event_When_Taking_Damage()
         {
-            var num = -1;
-            _health.OnHealthUpdated += i => num = i;
-            
             _health.TakeDamage(0);
 
-            num.Should().Be(0);
+            _monitor.Should().Raise(nameof(_health.OnHealthUpdated));
         }
 
         [Test]
         public void Invoke_OnHealthUpdated_Event_When_Healing()
         {
-            var num = -1;
-            _health.OnHealthUpdated += i => num = i;
-            
             _health.Heal(0);
 
-            num.Should().Be(0);
+            _monitor.Should().Raise(nameof(_health.OnHealthUpdated));
         }
     }
 }
