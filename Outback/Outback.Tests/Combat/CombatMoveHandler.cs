@@ -25,6 +25,9 @@ namespace Outback.Tests.Combat
             combatMove.Undo();
         }
 
-        public bool IsEmpty() => _moves.Count == 0;
+        public bool IsEmpty()
+        {
+            return _moves.Count == 0;
+        }
     }
 }
