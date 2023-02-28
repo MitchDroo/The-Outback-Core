@@ -42,16 +42,18 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Combat\Ally.cs" />
+        <Compile Include="Combat\BattleSystem.cs" />
+        <Compile Include="Combat\CombatEncounter.cs" />
+        <Compile Include="Combat\Enemy.cs" />
+        <Compile Include="Combat\IUnitSpawner.cs" />
+        <Compile Include="Combat\Player.cs" />
+        <Compile Include="Combat\Unit.cs" />
         <Compile Include="Class1.cs" />
         <Compile Include="DerivedItemOne.cs" />
         <Compile Include="DerivedItemTwo.cs" />
         <Compile Include="ExampleItem.cs" />
         <Compile Include="JsonConverter.cs" />
-        <Compile Include="Properties\AssemblyInfo.cs" />
-    </ItemGroup>
-    <ItemGroup>
-      <None Include="packages.config" />
-    </ItemGroup>
         <Compile Include="Combat\CardSelectOption.cs" />
         <Compile Include="Combat\CardSelector.cs" />
         <Compile Include="Combat\CombatEncounterSystem.cs" />

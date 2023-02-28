@@ -61,6 +61,7 @@
         <Reference Include="System.Xml.Linq" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Combat\BattleSystemShould.cs" />
         <Compile Include="JsonConverterShould.cs" />
         <Compile Include="Combat\CardSelectOptionShould.cs" />
         <Compile Include="Combat\CardSelectorShould.cs" />
@@ -81,6 +82,12 @@
             <Project>{e59d3b2c-4c49-4ba1-bc7c-52bdda3d7e1a}</Project>
             <Name>Outback</Name>
         </ProjectReference>
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Outback\Outback.csproj">
+        <Project>{e59d3b2c-4c49-4ba1-bc7c-52bdda3d7e1a}</Project>
+        <Name>Outback</Name>
+      </ProjectReference>
     </ItemGroup>
     <ItemGroup>
       <ProjectReference Include="..\Outback\Outback.csproj">
