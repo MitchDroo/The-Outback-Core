@@ -49,7 +49,6 @@
         <Compile Include="Combat\IUnitSpawner.cs" />
         <Compile Include="Combat\Player.cs" />
         <Compile Include="Combat\Unit.cs" />
-        <Compile Include="Class1.cs" />
         <Compile Include="DerivedItemOne.cs" />
         <Compile Include="DerivedItemTwo.cs" />
         <Compile Include="ExampleItem.cs" />
@@ -63,7 +62,6 @@
         <Compile Include="Combat\ICombatHud.cs" />
         <Compile Include="Combat\ICombatOption.cs" />
         <Compile Include="Combat\ICombatOptionSelectorView.cs" />
-        <Compile Include="Combat\Unit.cs" />
         <Compile Include="Combat\CombatMoveHandler.cs" />
         <Compile Include="Combat\Creature.cs" />
         <Compile Include="Combat\CreatureBreed.cs" />
