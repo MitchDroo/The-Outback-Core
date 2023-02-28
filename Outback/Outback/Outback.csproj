@@ -39,6 +39,16 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Combat\CardSelectOption.cs" />
+        <Compile Include="Combat\CardSelector.cs" />
+        <Compile Include="Combat\CombatEncounterSystem.cs" />
+        <Compile Include="Combat\CombatOptionSelector.cs" />
+        <Compile Include="Combat\ICard.cs" />
+        <Compile Include="Combat\ICardSelectorView.cs" />
+        <Compile Include="Combat\ICombatHud.cs" />
+        <Compile Include="Combat\ICombatOption.cs" />
+        <Compile Include="Combat\ICombatOptionSelectorView.cs" />
+        <Compile Include="Combat\Unit.cs" />
         <Compile Include="Combat\CombatMoveHandler.cs" />
         <Compile Include="Combat\Creature.cs" />
         <Compile Include="Combat\CreatureBreed.cs" />
