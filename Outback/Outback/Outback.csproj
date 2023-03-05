@@ -38,6 +38,10 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Combat\Core\Unit.cs" />
+        <Compile Include="Combat\Moves\DamageMove.cs" />
+        <Compile Include="Combat\Moves\HealMove.cs" />
+        <Compile Include="Combat\Moves\ICombatMove.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
