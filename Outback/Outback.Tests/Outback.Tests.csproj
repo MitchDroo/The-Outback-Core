@@ -112,6 +112,16 @@
         <Name>Outback</Name>
       </ProjectReference>
     </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Outback.App\Outback.App.csproj">
+        <Project>{09043462-d6ab-48dc-9be9-2fd0dda8c1ab}</Project>
+        <Name>Outback.App</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\Outback\Outback.csproj">
+        <Project>{e59d3b2c-4c49-4ba1-bc7c-52bdda3d7e1a}</Project>
+        <Name>Outback</Name>
+      </ProjectReference>
+    </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
         <PropertyGroup>
