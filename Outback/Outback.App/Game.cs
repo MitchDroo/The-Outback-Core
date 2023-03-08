@@ -1,12 +1,14 @@
 using System.Collections.Generic;
 using Outback.Combat;
+using Outback.Combat.Core;
+using Outback.Combat.Moves;
 
 namespace Outback.App
 {
     public class Game
     {
-        private ICreatureBreedRepository _breedRepository;
-        private ICreatureSpawner _spawner;
+        private readonly ICreatureBreedRepository _breedRepository;
+        private readonly ICreatureSpawner _spawner;
 
         public Game()
         {

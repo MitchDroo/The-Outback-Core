@@ -61,16 +61,14 @@
         <Reference Include="System.Xml.Linq" />
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Combat\BattleSystemShould.cs" />
+        <Compile Include="Combat\Core\BattleSystemShould.cs" />
+        <Compile Include="Combat\Core\CardSelectOptionShould.cs" />
+        <Compile Include="Combat\Core\CardSelectorShould.cs" />
+        <Compile Include="Combat\Core\CombatOptionSelectorShould.cs" />
+        <Compile Include="Combat\Core\CreatureShould.cs" />
+        <Compile Include="Combat\Core\HealthShould.cs" />
+        <Compile Include="Combat\Core\NoCreatureBreedShould.cs" />
         <Compile Include="JsonConverterShould.cs" />
-        <Compile Include="Combat\CardSelectOptionShould.cs" />
-        <Compile Include="Combat\CardSelectorShould.cs" />
-        <Compile Include="Combat\CombatEncounterSystemShould.cs" />
-        <Compile Include="Combat\CombatOptionSelectorShould.cs" />
-        <Compile Include="Combat\CombatMoveHandlerShould.cs" />
-        <Compile Include="Combat\CreatureShould.cs" />
-        <Compile Include="Combat\HealthShould.cs" />
-        <Compile Include="Combat\NoCreatureBreedShould.cs" />
         <Compile Include="Combat\Moves\DamageMoveShould.cs" />
         <Compile Include="Combat\Moves\HealMoveShould.cs" />
         <Compile Include="App\GameShould.cs" />

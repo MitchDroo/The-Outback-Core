@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Outback.Combat.Moves;
 
 namespace Outback.Combat
 {

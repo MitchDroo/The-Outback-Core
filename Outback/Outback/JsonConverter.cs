@@ -5,7 +5,7 @@ namespace Outback
 {
     public class JsonConverter
     {
-        private JsonSerializerSettings _settings = new JsonSerializerSettings
+        private readonly JsonSerializerSettings _settings = new()
         {
             TypeNameHandling = TypeNameHandling.Objects
        };

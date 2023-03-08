@@ -3,7 +3,7 @@ using FluentAssertions.Events;
 using NUnit.Framework;
 using Outback.Combat;
 
-namespace Outback.Tests.Combat
+namespace Outback.Tests.Combat.Core
 {
     [TestFixture]
     public class HealthShould

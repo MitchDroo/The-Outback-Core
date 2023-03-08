@@ -9,7 +9,7 @@ namespace Outback.Tests.Combat.Moves
     public class HealMoveShould
     {
         [Test]
-        public void Heal_Unit()
+        public void Heal_Unit_When_Executed()
         {
             var unit = new Unit();
             unit.Health = 8;
@@ -20,6 +20,22 @@ namespace Outback.Tests.Combat.Moves
             move.Execute(unit);
 
             unit.Health.Should().Be(10);
+        }
+
+        [Test]
+        public void Revert_Health_When_Undone()
+        {
+            var unit = new Unit();
+            unit.Health = 8;
+
+            var move = new HealMove();
+            move.Amount = 2;
+
+            move.Execute(unit);
+
+            move.Undo();
+
+            unit.Health.Should().Be(8);
         }
     }
 }

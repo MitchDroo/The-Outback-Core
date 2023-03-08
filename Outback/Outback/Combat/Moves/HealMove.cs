@@ -6,9 +6,17 @@ namespace Outback.Combat.Moves
     {
         public int Amount;
 
+        private Unit _target;
+
         public void Execute(Unit unit)
         {
-            unit.Heal(Amount);
+            _target = unit;
+            _target.Heal(Amount);
+        }
+
+        public void Undo()
+        {
+            _target.TakeDamage(Amount);
         }
     }
 }

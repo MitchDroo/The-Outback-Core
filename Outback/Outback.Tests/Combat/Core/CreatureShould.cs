@@ -1,8 +1,9 @@
 using FluentAssertions;
 using NUnit.Framework;
 using Outback.Combat;
+using Outback.Combat.Core;
 
-namespace Outback.Tests.Combat
+namespace Outback.Tests.Combat.Core
 {
     [TestFixture]
     public class CreatureShould

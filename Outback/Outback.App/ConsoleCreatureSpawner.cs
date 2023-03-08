@@ -1,5 +1,6 @@
 using System;
 using Outback.Combat;
+using Outback.Combat.Core;
 
 namespace Outback.App
 {

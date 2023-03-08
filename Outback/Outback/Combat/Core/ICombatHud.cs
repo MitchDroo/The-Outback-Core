@@ -1,3 +1,5 @@
+using Outback.Combat.Core;
+
 namespace Outback.Combat
 {
     public interface ICombatHud

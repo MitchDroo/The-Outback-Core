@@ -1,6 +1,6 @@
 using System;
 
-namespace Outback.Combat
+namespace Outback.Combat.Core
 {
     [Serializable]
     public class Creature
