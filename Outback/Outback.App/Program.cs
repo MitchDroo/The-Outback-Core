@@ -1,7 +1,13 @@
 ﻿namespace Outback.App
 {
-    internal class Program
+    public class Program
     {
-        public static void Main() => new Game().Run();
+        public static void Main()
+        {
+            var dialogueView = new ConsoleDialogueView();
+            var dialogueRunner = new DialogueRunner(dialogueView);
+            var game = new Game(dialogueRunner);
+            game.Run();
+        }
     }
 }

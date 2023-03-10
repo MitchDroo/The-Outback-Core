@@ -38,6 +38,19 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Builders\A.cs" />
+        <Compile Include="Builders\DialogueBuilder.cs" />
+        <Compile Include="Builders\DialogueLineBuilder.cs" />
+        <Compile Include="Builders\DialogueSpeakerBuilder.cs" />
+        <Compile Include="Builders\TestDataBuilder.cs" />
+        <Compile Include="Core\IOutbackLogger.cs" />
+        <Compile Include="Dialogue\Dialogue.cs" />
+        <Compile Include="Dialogue\DialogueLine.cs" />
+        <Compile Include="Dialogue\DialogueRunner.cs" />
+        <Compile Include="Dialogue\DialogueSpeaker.cs" />
+        <Compile Include="Dialogue\IDialogueRepository.cs" />
+        <Compile Include="Dialogue\IDialogueSpeakerRepository.cs" />
+        <Compile Include="Dialogue\IDialogueView.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

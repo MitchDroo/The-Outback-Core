@@ -39,9 +39,19 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="ConsoleDialogueView.cs" />
+        <Compile Include="DialogueRepository.cs" />
+        <Compile Include="DialogueSpeakerRepository.cs" />
         <Compile Include="Game.cs" />
+        <Compile Include="OutbackLogger.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Outback\Outback.csproj">
+        <Project>{e59d3b2c-4c49-4ba1-bc7c-52bdda3d7e1a}</Project>
+        <Name>Outback</Name>
+      </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
