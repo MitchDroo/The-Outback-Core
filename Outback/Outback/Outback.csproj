@@ -11,6 +11,7 @@
         <AssemblyName>Outback</AssemblyName>
         <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
+        <LangVersion>latest</LangVersion>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
         <PlatformTarget>AnyCPU</PlatformTarget>
@@ -32,12 +33,40 @@
         <WarningLevel>4</WarningLevel>
     </PropertyGroup>
     <ItemGroup>
+        <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+          <HintPath>..\packages\Newtonsoft.Json.13.0.3-beta1\lib\net45\Newtonsoft.Json.dll</HintPath>
+        </Reference>
         <Reference Include="System" />
         <Reference Include="System.Core" />
         <Reference Include="System.Data" />
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Combat\Core\BattleSystem.cs" />
+        <Compile Include="Combat\Core\CombatEncounter.cs" />
+        <Compile Include="Combat\Core\Creature.cs" />
+        <Compile Include="Combat\Core\Health.cs" />
+        <Compile Include="Combat\Core\ICombatHud.cs" />
+        <Compile Include="Combat\Core\ICreatureSpawner.cs" />
+        <Compile Include="Combat\IUnitSpawner.cs" />
+        <Compile Include="Combat\Repositories\ICreatureBreedRepository.cs" />
+        <Compile Include="DerivedItemOne.cs" />
+        <Compile Include="DerivedItemTwo.cs" />
+        <Compile Include="ExampleItem.cs" />
+        <Compile Include="JsonConverter.cs" />
+        <Compile Include="Combat\CardSelectOption.cs" />
+        <Compile Include="Combat\CardSelector.cs" />
+        <Compile Include="Combat\CombatOptionSelector.cs" />
+        <Compile Include="Combat\ICard.cs" />
+        <Compile Include="Combat\ICardSelectorView.cs" />
+        <Compile Include="Combat\ICombatOption.cs" />
+        <Compile Include="Combat\ICombatOptionSelectorView.cs" />
+        <Compile Include="Combat\CreatureBreed.cs" />
+        <Compile Include="Combat\NoCreatureBreed.cs" />
+        <Compile Include="Combat\Core\Unit.cs" />
+        <Compile Include="Combat\Moves\DamageMove.cs" />
+        <Compile Include="Combat\Moves\HealMove.cs" />
+        <Compile Include="Combat\Moves\ICombatMove.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
